@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="">
 
-    <link rel='icon' href='{{asset("images/favicon.png")}}' type='image/png'/>
+    <link rel='icon' href='{{secure_asset("images/favicon.png")}}' type='image/png'/>
 
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/font-icons.css')}}" />
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" />
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap.min.css')}}" />
+    <link rel="stylesheet" href="{{secure_asset('css/font-icons.css')}}" />
+    <link rel="stylesheet" href="{{secure_asset('css/style.css')}}" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
 
-    <script src="{{asset('js/lazysizes.min.js')}}"></script>
+    <script src="{{secure_asset('js/lazysizes.min.js')}}"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 
 </head>
@@ -280,15 +280,15 @@
 
 </main>
 
-<script src="{{asset('js/jquery.min.js')}}"></script>
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/easing.min.j')}}s"></script>
-<script src="{{asset('js/owl-carousel.min.js')}}"></script>
-<script src="{{asset('js/flickity.pkgd.min.js')}}"></script>
-<script src="{{asset('js/twitterFetcher_min.js')}}"></script>
-<script src="{{asset('js/jquery.newsTicker.min.js')}}"></script>
-<script src="{{asset('js/modernizr.min.js')}}"></script>
-<script src="{{asset('js/scripts.js')}}"></script>
+<script src="{{secure_asset('js/jquery.min.js')}}"></script>
+<script src="{{secure_asset('js/bootstrap.min.js')}}"></script>
+<script src="{{secure_asset('js/easing.min.j')}}s"></script>
+<script src="{{secure_asset('js/owl-carousel.min.js')}}"></script>
+<script src="{{secure_asset('js/flickity.pkgd.min.js')}}"></script>
+<script src="{{secure_asset('js/twitterFetcher_min.js')}}"></script>
+<script src="{{secure_asset('js/jquery.newsTicker.min.js')}}"></script>
+<script src="{{secure_asset('js/modernizr.min.js')}}"></script>
+<script src="{{secure_asset('js/scripts.js')}}"></script>
 
 </body>
 </html>
